@@ -1,0 +1,17 @@
+##
+# config.yml template
+# for usage, see:
+#   spec-live/spec_helper.rb
+#   spec-live/backups/config.rb
+##
+---
+config:
+  user: <your user name>
+  home: /absolute/path/to/your/home/dir
+storage:
+  scp:
+    username: <current user name>
+    password: <password>
+    ip: localhost
+    port: 22
+    path: /absolute/path/to/spec-live/tmp
